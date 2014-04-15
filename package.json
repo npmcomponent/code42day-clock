@@ -1,30 +1,26 @@
 {
-  "name": "component-clock",
-  "version": "1.2.1",
+  "name": "code42day-clock",
   "description": "Clock UI component for use in time-picker",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/code42day/clock.git"
-  },
+  "version": "1.2.1",
   "keywords": [
     "clock",
     "time"
   ],
-  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
-  "license": "MIT",
-  "readmeFilename": "Readme.md",
+  "styles": [
+    "lib/clock.css"
+  ],
   "dependencies": {
-    "bounds": "~1"
+    "code42day-bounds": "git://github.com/npmcomponent/code42day-bounds.git",
+    "code42day-dataset": "git://github.com/npmcomponent/code42day-dataset.git",
+    "code42day-el": "git://github.com/npmcomponent/code42day-el.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-clone": "git://github.com/npmcomponent/component-clone.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-enumerable": "git://github.com/npmcomponent/component-enumerable.git",
+    "component-range": "git://github.com/npmcomponent/component-range.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-in-groups-of": "git://github.com/npmcomponent/component-in-groups-of.git"
   },
-  "devDependencies": {
-    "mocha": "~1",
-    "jshint": "~2"
-  }
+  "license": "MIT"
 }
